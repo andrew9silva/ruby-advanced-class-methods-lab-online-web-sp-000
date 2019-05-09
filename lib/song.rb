@@ -15,4 +15,10 @@ class Song
     song
   end
 
+  def self.new_by_name
+    self.all.each do |song_name|
+      puts "#{song_name}"
+    end
+  end
+
 end
