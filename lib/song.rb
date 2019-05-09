@@ -32,5 +32,6 @@ class Song
       name
     else
       self.create
+    end
   end
 end
