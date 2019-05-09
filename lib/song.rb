@@ -24,4 +24,6 @@ class Song
     song.name = title
     song
   end
+  def self.find_or_create_by_name
+    
 end
