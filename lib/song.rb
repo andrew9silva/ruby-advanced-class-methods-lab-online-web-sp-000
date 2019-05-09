@@ -14,11 +14,8 @@ class Song
     self.all << song
     song
   end
-
-  def self.new_by_name
-    self.all.each do |song_name|
-      puts "#{song_name}"
-    end
-  end
-
+  def self.new_by_name(title)
+    song = self.new
+    song.name = title
+    song
 end
